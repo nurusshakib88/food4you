@@ -1,0 +1,391 @@
+body {
+   overflow-x: hidden;
+   min-height: 100vh;
+   width: 100vw;
+	color: black;
+   font-size: 16.67px;
+   font-family: Montserrat-Regular;
+
+}
+
+/*common end*/
+
+/*font start*/
+
+@font-face {
+   font-family: Montserrat-Regular;
+   src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+   font-family: Montserrat-Medium;
+   src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+
+
+@font-face {
+   font-family: Montserrat-Bold;
+   src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+   font-family: Montserrat-ExtraBold;
+   src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+
+@font-face {
+   font-family: FrederickatheGreat-Regular;
+   src: url(../fonts/FrederickatheGreat-Regular.ttf);
+}
+
+@font-face {
+   font-family: Gabelisa;
+   src: url(../fonts/Gabelisa.otf);
+}
+
+@font-face {
+   font-family: LeckerliOne-Regular;
+   src: url(../fonts/LeckerliOne-Regular.ttf);
+}
+
+
+
+/*font end*/
+
+
+header {
+	padding-top: 20px; 
+   position: absolute;
+   width: 100%;
+   z-index: 10;
+
+}
+
+
+
+/*delivery*/
+
+.h_top {
+   position: absolute;
+   top: 20px;
+   right: 0;
+}
+
+
+.h_top ul li h1 {
+	text-align: right;
+	font-size: 18px;
+   font-family: Montserrat-Bold;
+   padding-top: 10px;
+   margin: 0;
+}
+
+
+.h_top ul li p {
+	font-size: 26px;
+   font-family: Montserrat-Bold;
+   line-height: 27px;
+   padding-top: 0;
+}
+
+.h_top ul li img {
+	padding-left: 15px;
+}
+
+
+/*menu start*/
+
+
+.menu ul li a{
+   margin-right: 60px;
+   color: black !important;
+   font-family: Montserrat-Bold;
+}
+
+.menu ul li a:hover {
+   color: white !important;
+}
+
+/*menu end*/
+
+
+.banner {
+   position: relative;
+   top: 0;
+   background-image: url(../images/banner.jpg);
+   min-height: 100vh;
+   background-size: cover;
+   background-position: center;
+   padding: 194px 0 124px;
+
+}
+
+.b_text h1 {
+   font-size: 57.68px;
+   font-family: Gabelisa;
+}
+
+.b_text h2 {
+   font-size: 90.21px;
+   font-family: FrederickatheGreat-Regular;
+}
+
+.b_text h3 {
+   font-size: 26.62px;
+   font-family: Montserrat-Bold;
+   padding-bottom: 20px;
+
+}
+
+
+.c_hr {
+   margin: 0 auto;
+   width: 60%;
+   margin-top: 1.5px solid;
+}
+
+.m_text {
+   padding-top: 40px;
+}
+
+.m_text p{
+   font-size: 19.39px;
+   font-family: FrederickatheGreat-Regular;
+   line-height: 5px;
+
+}
+.m_text h2 {
+   font-size: 56.79px;
+   font-family: FrederickatheGreat-Regular;   
+}
+
+.b_img img{
+   filter: drop-shadow(0 0 2.5rem #0000003d);
+}
+.spegetti {
+ position: absolute;
+ top: 608px;
+ left: 0;
+}
+
+/*choose & enjoy start*/
+
+.choose {
+   padding: 85px 0;
+}
+
+.ch_text h1{
+   font-size: 50px;
+   font-family: FrederickatheGreat-Regular;
+   text-transform: uppercase;
+
+}
+
+.ch_text p {
+   font-size: 16.67px;
+}
+
+
+
+
+.c_shadow {
+   filter: drop-shadow(9px 10px 10px grey);
+}
+
+.item_img {
+   padding-top: 40px;
+}
+
+
+.item_img img {
+   transition: 1.5s ease;
+}
+
+.item_img img:hover {
+   transform: rotate(45deg);
+}
+
+.item_text {
+   padding: 20px 10px;
+}
+.item_text h2 {
+   font-size: 20.83px;
+   font-family: Montserrat-Bold;
+}
+
+.btn-bg {
+   font-family: Montserrat-Bold;
+   background-color: #ffe001;
+   border-radius: 0;
+   padding: 10px 30px;
+   transition: .3s;
+}
+
+.btn-bg:hover {
+   transform: scale(.9);
+}
+
+/*choose & enjoy end*/
+
+
+/*slider start */
+
+
+
+
+/*.slider {
+   padding: 60px 0;
+}*/
+
+
+
+.cid {   
+   bottom: -30px;
+}
+
+
+.cid [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;    
+    background-color: #ffe001 !important;
+}
+
+
+
+.s_item {
+   padding: 80px 0;
+}
+
+.s_item img {
+   transition: .3s ease-out;
+}
+.s_item img:hover {
+   transform: scale(1.2);
+   box-shadow: 0px 10px 22px 2px rgba(0,0,0,0.4);
+}
+
+/*slider end*/
+
+/*try it start*/
+
+.tryit {
+   padding: 80px 0;
+}
+
+
+.tryit_img2 img {
+   padding-bottom: 37px;
+}
+
+
+/*try it end*/
+
+
+/*reservation start*/
+
+.r_form {
+   padding: 50px 0;
+}
+
+.c_form {
+   width: 100%;
+   height: 55px;
+   padding: 10px 20px;
+   border-radius: 5px;
+   font-size: 16px;
+   color: #898989;
+}
+
+.c_form:focus {
+   color: #898989;   
+   border: 1px solid #010101; 
+   box-shadow: none;
+}
+
+
+.f_btn {   
+   width: 100%;
+   font-size: 20.83px;
+   font-family: Montserrat-Bold;   
+   height: 55px;
+   background-color: #ffe001;
+   border-radius: 5px;
+   transition: .3s;
+   background-color: #ffe001;
+}
+
+.f_btn:hover {
+   transform: scale(.9);
+}
+
+.f_btn:focus {
+   box-shadow: none;
+
+}
+
+
+/*reservation end*/
+
+
+/*footer start*/
+
+
+footer {
+   background: url(../images/footer_bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 60px 0;
+   margin-top: 40px;
+
+   color: white;
+}
+
+.f_text {
+   padding-top: 65px;
+   padding-bottom: 170px;
+}
+
+.f_address {
+   text-align: center;
+}
+
+.f_address i {
+   color: #ffe001;
+   font-size: 30px;
+   transition: .3s;
+}
+
+.f_address i:hover {
+   transform: scale(1.2);
+}
+
+
+.s_icon p {
+   text-align: center;
+   background-color: white;
+   border-radius: 50%;
+   height: 30px;
+   width: 30px;
+   display: inline-block;
+   margin-right: 8px;
+   transition: .3s;
+}
+
+.s_icon p:last-child {
+   margin-right: 0;
+}
+
+
+.s_icon p:hover {
+   transform: scale(1.2);
+}
+
+.s_icon p i {
+   text-align: center;
+   color: black;
+   font-size: 20px;
+   padding-top: 4.5px;
+}

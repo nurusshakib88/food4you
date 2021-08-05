@@ -1,0 +1,601 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+
+/*logo*/
+.logo {
+		width: 50%;
+   
+}
+
+
+/*navbar*/
+
+
+/*toogle button*/
+.m_btn {
+	margin-top: 20px;
+}
+
+
+.menu ul li a {
+		font-size: 11px;
+		text-align: right;
+		margin: 0 0 10px!important;
+		padding-right: 5px !important;
+}
+
+/*banner start*/
+
+.banner {
+   min-height: 80vh;
+   padding: 123px 0 42px;
+
+}
+.b_text h1 {
+   font-size: 28px;
+   font-family: Gabelisa;
+}
+
+.b_text h2 {
+   font-size: 42px;
+   font-family: FrederickatheGreat-Regular;
+   line-height: 22px;
+}
+
+.b_text h3 {
+   font-size: 13px;
+   padding-bottom: 8px;
+   padding-top: 7px !important;
+
+}
+
+.m_text {
+   padding-top: 18px;
+}
+
+.m_text p{
+   font-size: 10px;
+   line-height: 1px !important;
+
+
+}
+.m_text h2 {
+   font-size: 25px;
+}
+
+/*banner end*/
+
+.spegetti {
+	top: 97px;
+	left: -72px;
+	transform: scale(.4);
+}
+
+
+/*choose*/
+
+.choose {
+   padding: 50px 0;
+}
+
+.item {
+   background-image: url(../images/food-bg.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: auto;
+
+}
+
+.ch_text h1 {
+   font-size: 27px;
+}
+
+.ch_text p {
+   font-size: 14px;
+}
+
+
+/*choose*/
+
+/*items*/
+.item_img {
+    padding-top: 10px;
+}
+
+
+.item_img img {
+   width: 80%;
+}
+
+
+.item_text h2 {
+   font-size: 18px;
+}
+
+.item_text p{
+   font-size: 15px;
+}
+
+.btn-bg {
+   font-size: 15px;
+   padding: 5px 15px;
+}
+
+
+/*slider*/
+
+.cid {
+    bottom: -25px;
+}
+
+.s_item {
+    padding: 30px 0 58px;
+}
+
+.s_item img:hover {
+   transform: scale(1.0);
+   box-shadow: none;
+}
+
+
+/*tryit start*/
+
+.tryit {
+   padding: 50px 0;
+}
+
+.tryit_img2 img {
+   padding-bottom: 23px;
+}
+
+/*reservation*/
+
+.r_form {
+   padding: 35px 0;
+}
+
+.c_form {
+   height: 35px;
+   padding: 5px 10px;
+}
+
+.f_btn {
+   font-size: 16px;
+   height: 35px;
+}
+
+
+/*footer start*/
+
+footer {
+   padding: 40px 0;
+}
+.f_logo {
+   margin: 0 auto;
+}
+
+.f_text {
+   text-align: center;
+}
+
+.contact {
+   margin: 0 auto !important;
+   padding-bottom: 35px;
+}
+
+.contact_text p {
+   text-align: center;
+}
+.f_address i {
+   font-size: 24px;
+}
+
+
+
+
+.f_text {
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.copyright, .s_icon {
+   text-align: center;
+}
+
+.copyright {
+   padding-bottom: 15px;
+}
+
+
+
+
+/*footer end*/
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+/*logo*/
+.logo {
+		width: 80%;
+   
+}
+
+/*toogle button*/
+.m_btn {
+	margin-top: 20px;
+}
+
+.menu {
+   padding-top: 0;
+}
+
+.menu ul li a {
+		font-size: 12px;
+		text-align: right;
+		margin: 10px 0 0 !important;
+}
+
+/*banner start*/
+.b_text h1 {
+   font-size: 42px;
+   font-family: Gabelisa;
+}
+
+.b_text h2 {
+   font-size: 65px;
+   font-family: FrederickatheGreat-Regular;
+}
+
+.b_text h3 {
+   font-size: 17px;
+   padding-bottom: 20px;
+   /*margin: 0 140px;*/
+}
+
+.m_text {
+   padding-top: 22px;
+}
+
+.m_text p{
+   font-size: 12px;
+   line-height: 2px;
+
+
+}
+.m_text h2 {
+   font-size: 42px;
+}
+
+/*banner end*/
+
+.spegetti {
+    top: 336px;
+    left: -60px;
+    transform: scale(.5);
+}
+
+/*choose*/
+
+.choose {
+   padding: 60px 0;
+}
+
+.item {
+   background-image: url(../images/food-bg.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: auto;
+
+}
+
+.ch_text h1 {
+   font-size: 38px;
+}
+
+.ch_text p {
+   font-size: 15px;
+   padding: 0;
+}
+
+
+/*choose*/
+
+/*items*/
+
+.item_text h2 {
+   font-size: 18px;
+}
+
+.item_text p{
+   font-size: 15px;
+}
+
+.btn-bg {
+   font-size: 15px;
+   padding: 5px 15px;
+}
+
+
+/*slider*/
+
+.cid {
+    bottom: -15px;
+}
+
+.s_item {
+    padding: 30px 0 58px;
+}
+
+
+/*tryit start*/
+
+.tryit {
+   padding: 60px 0;
+}
+
+.tryit_img2 img {
+    padding-bottom: 24px;
+}
+
+
+/*reservation*/
+.r_form {
+   padding: 40px 0;
+}
+
+.c_form {
+      height: 45px;
+      padding: 5px 10px;
+   }
+
+.f_btn {
+      height: 45px;
+   }
+
+
+
+/*footer start*/
+
+footer {
+   padding: 40px 0;
+}
+
+.contact {
+   margin: 0 auto !important;
+   padding-bottom: 35px;
+}
+
+.f_text {
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.copyright, .s_icon {
+   text-align: center;
+}
+
+.copyright {
+   padding-bottom: 15px;
+}
+
+
+
+
+/*footer end*/
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+/*toogle button*/
+.m_btn {
+	margin-top: 20px;
+}
+
+.menu {
+   padding-top: 0;
+}
+
+/*menu*/
+.menu ul li a {
+		font-size: 13px;
+		text-align: right;
+		margin: 10px 0 0 !important;
+	}
+
+/*banner start*/
+
+
+.banner {
+   min-height: 100vh;
+   padding: 170px 0 50px;
+
+}
+
+.b_text h1 {
+   font-size: 50px;
+   font-family: Gabelisa;
+}
+
+.b_text h2 {
+   font-size: 80px;
+   font-family: FrederickatheGreat-Regular;
+}
+
+.b_text h3 {
+   font-size: 22px;
+}
+
+.b_img img {
+   width: 50%;
+   padding-top: 25px;
+}
+
+.m_text {
+   padding-top: 30px;
+}
+
+.m_text p{
+   font-size: 16px;
+
+}
+.m_text h2 {
+   font-size: 50px;
+}
+
+/*banner end*/
+
+.spegetti {
+    top: 664px;
+    left: -36px;
+    transform: scale(.7);
+}
+
+/*choose*/
+
+.choose {
+   background-image: url(../images/food-bg.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: auto;
+
+}
+
+.ch_text h1 {
+   font-size: 45px;
+}
+.ch_text p {
+   font-size: 15px;
+}
+
+/*items*/
+
+.item_text h2 {
+   font-size: 18px;
+}
+
+.item_text p{
+   font-size: 15px;
+}
+
+.btn-bg {
+   font-size: 15px;
+   padding: 5px 15px;
+}
+
+
+/*slider*/
+
+.s_item {
+    padding: 30px 0 58px;
+}
+
+.tryit_img2 img {
+   padding-bottom: 20px;
+}
+
+/*reservation*/
+
+.r_form {
+   padding: 45px 0;
+}
+
+.c_form {
+   height: 50px;
+   padding: 5px 10px;
+}
+
+.f_btn {
+   height: 50px;
+}
+
+/*footer start*/
+
+footer {
+   padding: 45px 0;
+}
+
+.contact {
+   margin: 0 auto !important;
+   padding-bottom: 40px;
+}
+
+.f_address {
+   text-align: center;
+}
+
+.f_text {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+/*footer end*/
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	.b_text h3 {
+   /*margin: 0 30px;*/
+
+}
+
+.spegetti {
+    position: absolute;
+    top: 541px;
+    left: -12px;
+    transform: scale(.9);
+}
+
+.choose {
+   background-image: url(../images/food-bg.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: auto;
+   padding-left: 0 !important;
+
+}
+
+.tryit_img2 img {
+   padding-bottom: 28px;
+}
+
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+.choose {
+   background-image: url(../images/food-bg.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: auto;
+   padding-left: 0 !important;
+
+}
+
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+.choose {
+   background-image: url(../images/food-bg.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: auto;
+   padding-left: 0 !important;
+
+}
+
+}
