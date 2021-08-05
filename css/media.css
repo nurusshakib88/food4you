@@ -241,6 +241,13 @@ footer {
 }
 
 /*banner start*/
+
+
+.banner {
+   min-height: 80vh;
+   padding: 151px 0 58px;
+
+}
 .b_text h1 {
    font-size: 42px;
    font-family: Gabelisa;
@@ -365,12 +372,19 @@ footer {
    padding: 40px 0;
 }
 
+.f_logo {
+   text-align: center;
+   margin: 0 auto;
+}
+
+
 .contact {
    margin: 0 auto !important;
    padding-bottom: 35px;
 }
 
 .f_text {
+   text-align: center;
     padding-top: 35px;
     padding-bottom: 25px;
 }
