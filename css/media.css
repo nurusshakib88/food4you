@@ -3,6 +3,10 @@
 
 /*header start*/
 
+header {
+    padding-top: 20px !important;
+}
+
 .menu_bg {
 	left: 0;
 	right: 0;
@@ -38,7 +42,7 @@
 /*banner start*/
 
 .ptb_custom {
-    padding-top: 155px;
+    padding-top: 130px;
 }
 
 
@@ -239,6 +243,10 @@ footer {
 
 /*header start*/
 
+header {
+    padding-top: 20px !important;
+}
+
 .menu {
    top: 75px;
 }
@@ -259,9 +267,8 @@ footer {
 /*banner start*/
 
 .ptb_custom {
-    padding-top: 185px;
+    padding-top: 170px;
 }
-
 
 .b_text h1 {
     font-size: 40px;
@@ -416,6 +423,10 @@ footer {
 @media (min-width: 768px) and (max-width: 991.98px) {
 
 /*header start*/
+
+header {
+    padding-top: 25px !important;
+}
 
 .menu ul li a {
     margin-right: 10px;
