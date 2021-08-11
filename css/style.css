@@ -200,6 +200,11 @@ header {
    left: 0;
 }
 
+.spegetti img{
+   filter: drop-shadow(0 0 2.5rem #0000003d);
+}
+
+
 /*banner end*/
 
 
