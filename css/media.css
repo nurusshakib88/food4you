@@ -23,8 +23,10 @@ header {
 }
 
 .menu {
-   top: 85px;
+    position: relative;
+    top: 0;
 }
+
 
 .menu ul li a {
 	font-size: 15px;
@@ -248,17 +250,20 @@ header {
 }
 
 .menu {
-   top: 75px;
+    position: relative;
+    top: 0;
 }
 
 .menu ul li a {
 	font-size: 15px;
-    margin-right: 10px;
+    margin-right: 0;
     text-align: right;
+    padding: 6px 2px !important;
 }
 
-.menu ul li:last-child a {
-   margin-right: 10px;
+
+.menu ul li a:hover {
+   border-bottom: 1px solid transparent;
 }
 /*header end*/
 
@@ -431,11 +436,16 @@ header {
 .menu ul li a {
     margin-right: 10px;
     text-align: right;
+    padding: 8px 2px !important;
 }
 
 .menu ul li:last-child a {
    margin-right: 10px;
 }
+.menu ul li a:hover {
+   border-bottom: 1px solid transparent;
+}
+
 /*header end*/
 
 
