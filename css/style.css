@@ -72,12 +72,15 @@ header {
    top: 95px;
 }
 
-.menu ul li a {
+.menu ul li a {   
+   margin-right: 70px;
    text-transform: uppercase;
    font-size: 16px;
    font-family: Montserrat-Bold;
    color: black !important;
-   margin-right: 50px;
+   border-bottom: 1px solid transparent;
+   transition: .5s ease;
+   padding: 2px 2px !important;
 }
 
 
@@ -86,7 +89,7 @@ header {
 }
 
 .menu ul li a:hover {
-   color: white !important;
+   border-bottom: 1px solid black;
 }
 
 
