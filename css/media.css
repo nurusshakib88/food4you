@@ -37,6 +37,11 @@ header {
 .menu ul li:last-child a {
    margin-right: 10px;
 }
+
+.menu ul li a:hover {
+   border-bottom: none !important;
+}
+
 /*header end*/
 
 
@@ -263,7 +268,7 @@ header {
 
 
 .menu ul li a:hover {
-   border-bottom: 1px solid transparent;
+   border-bottom: none !important;
 }
 /*header end*/
 
@@ -443,9 +448,8 @@ header {
    margin-right: 10px;
 }
 .menu ul li a:hover {
-   border-bottom: 1px solid transparent;
+   border-bottom: none !important;
 }
-
 /*header end*/
 
 
